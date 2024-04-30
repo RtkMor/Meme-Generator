@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Project One */
+/* .logo {
+    height: 60px;
+}
+.main-body {
+    height: 85vh;
+    background-image: url(./images/reactBG.jpeg);
+    object-fit: fill;
+}
+.main-list > li::marker {
+    color: cyan;
+} */
+
+
+/* Project Second */
+/* .box {
+    width: 350px;
+}
+.boxing {
+    width: 150px;
+}
+.profilePic {
+    width: 350px;
+}
+.logos {
+    height: 20px;
+    width: 20px;
+} */
+
+
+/* Project Fourth */
+/* .logo {
+    height: 40px;
+}
+
+.parent {
+    max-width: 650px;
+}
+
+.img-item {
+    width: 230px;
+    max-height: 350px
+} */
+
+
+/* Project Fifth */
+.topText {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px;
+}
+
+.bottomText {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px;
+}
+
+.topText, .bottomText {
+    font-family: 'Arial', sans-serif; 
+    color: white;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                  -1px 1px 0 #000,
+                  1px 1px 0 #000;
+}
+
+#memeBox {
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.darkSwitch {
+    width: 60px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px rgb(209, 204, 204);
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.darkSwitch i {
+    color: white;
+}
+
+.darkSwitch::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    left: 1px;
+    transition: 0.5s;
+}
+
+input:checked + .darkSwitch::before {
+    transform: translate(30px);
+    background-color: black;
+}
+
+input:checked + .darkSwitch, input:checked + .darkSwitch i {
+    background-color: white;
+    color: black;
+}
+
+#check {
+    display: flex;
+    appearance: none;
+}
+
+
+/* Project Sixth */
+.box {
+    height: 100px;
+    width: 100px;
+}
